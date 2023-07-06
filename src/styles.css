@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+  text-align: center;
+}
+
+.explanation{
+  background-color: aliceblue;
+  font-style: italic;
+  padding: 20px;
+
+}
+
+p{
+  font-size: 1.2em;
+}
+.page-body{
+  margin: auto;
+  max-width: 1000px;
+}
+
+
+.centered{
+  text-align: center;
+}

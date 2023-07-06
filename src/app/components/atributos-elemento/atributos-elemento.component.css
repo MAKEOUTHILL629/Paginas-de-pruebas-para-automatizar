@@ -1,0 +1,28 @@
+.class-attribute{
+  text-align: center;
+  font-size: 1.5em;
+}
+.button-add-atribute{
+  background-color: chartreuse;
+  border: 1 solid black;
+  width: 300px;
+  height: 58px;
+  font-size: 1.5em;
+  margin: auto;
+  display: block;
+}
+
+.button-add-atribute:hover{
+  background-color: rgb(79, 156, 1);
+}
+
+.button-add-atribute:active{
+  background-color: rgb(59, 104, 14);
+  color: aliceblue;
+  width: 302px;
+  height: 60px;
+}
+#jsattributes{
+  text-align: center;
+  font-size: 1.5em;
+}

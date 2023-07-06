@@ -1,0 +1,28 @@
+
+<a routerLink="/"
+routerLinkActive="active"
+ariaCurrentWhenActive="page">Index</a>
+<h1>Ejemplos de atributos de elementos</h1>
+
+<div class="explanation">
+  <p>
+    Los elementos pueden tener atributos. Esta página de prueba tiene párrafos
+    de ejemplo con atributos para explorar.
+  </p>
+</div>
+<h2>Atributo personalizado y JavaScript añadido</h2>
+<p>
+  El siguiente párrafo tiene atributos. Algunos son atributos personalizados, y
+  uno "original-title" fue añadido usando JavaScript.
+</p>
+<p id="domattributes" class="class-attribute" [attr.custom-attrib]="customAtribut"  [attr.original-title]="originalTitle" [attr.title]="title">Este párrafo tiene atributos</p>
+<h2>Añadido JavaScript dinámico</h2>
+<p>
+  El siguiente párrafo tiene un id, y un atributo personalizado llamado "nextid"
+  que se utiliza al añadir atributos adicionales a través de JavaScript cuando
+  se hace clic en el botón, por ejemplo, "personalizado-{{ "{" }}proximoId{{ "}" }}.
+</p>
+
+<p id="jsattributes" [attr.proximoId]="nextid">Este párrafo tiene atributos dinámicos</p>
+<button class="button-add-atribute" (click)="changedAtributes()">Añadir otro atributo</button>
+
